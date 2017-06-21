@@ -62,7 +62,7 @@
 
 													<li>
 														<a  href="../InvitedSpeakersAndPanelists/indexInvitedSpeakersAndPanelists.html">
-															<span>Invited Speakers</span>
+															<span>Invited Speakers and Talks</span>
 														</a>
 													</li>
 
@@ -129,24 +129,82 @@
 
 
 															<h2 id="invited-speakers-and-panelists:b9eaae3a678b0c14139881880049f23e">Invited Speakers and Talks</h2>
+<hr />															<p><strong>Title:</strong> Image analytics for Endomicroscopy and Digital Holographic Microscopy
+</p>	
+<p><strong>Time:</strong> 10:00-10:30am</p>														<p><strong>Speaker:</strong>  Terrence Chen (Siemens)</p>
 
-															<hr />
-															<p><strong>Title:</strong> Microscopy Image Analysis: Optics, Algorithms and Community</p>
-															<p><strong>Speaker:</strong> Zhaozheng Yin</p>
+
+	
 
 												
 															<p><center>
-																	<img src="../img/zhaozheng_yin.jpg" alt="" />
+																	<img src="../img/terrence_chen.jpg" alt="" />
 																</center></p>
 
-															<p><strong>Abstract:</strong> The data explosion by recording microscopy images during high throughput biological experiments makes the labor-intensive manual analysis prohibitive. Biologists need rigorous, quantitative and efficient approaches and tools to decipher complex biological processes. Since microscopy images differ from general natural scene images due to their specific image formation processes and the artifacts inherent in microscopy images cause difficulties or failures for many image processing methods, first, I will introduce the theoretical foundation of microscopy imaging optics. Then, the optics-related knowledge will be transferred to guide the development of microscopy image analysis algorithms and enhancement of microscope functionality. Finally, the algorithms will be integrated into practical tools capable of tracking and analyzing the behavior of specimens, therefore benefiting the community for biological discovery. 
+
 															</p>
-															<p><strong>Bio:</strong> Zhaozheng Yin received his PhD in Computer Science and Engineering from Penn State in 2009. After two-year postdoc training at Carnegie Mellon University, he joined Missouri S&T as an assistant professor in 2011. Currently, he is also a Daniel St. Clair Faculty Fellow in the Computer Science Department and a Dean’s Scholar in the College of Engineering and Computing. His group has been working in the field of Biomedical Image Analysis, Computer Vision and Machine Learning. He is a recipient of CVPR Best Doctoral Spotlight Award (2009), MICCAI Young Scientist Award (2012, finalist in 2015 and 2010), NSF CAREER Award (2014). He has been serving as an Area Chair of MICCAI2015, WACV2016 and CVPR2017.
+<p><strong>Abstract:</strong> In this talk, I will talk about two relatively new microscopic imaging, Endomicroscopy and Digital Holographic Microscopy (DHM). Endomicroscopy provides real-time histology imaging from inside the body, which makes online indication of tissue classification possible. On the other hand, DHM provides 3D morphological information of the cells which enables a powerful quantitative label-free analysis of biological cells and offers unique advantages over conventional microscopy. With advanced AI based image analytic algorithms , I will illustrate examples of real-time classification of benign and malignant brain tumors with Endomicroscopy and examples how DHM disrupts conventional blood analysis. </a>
+
+															</p>
+															<p><strong>Bio:</strong> Terrence Chen received his PhD in Computer Science from the University of Illinois at Urbana-Champaign (UIUC) in 2006. He received a M.S. in Computer Science from UIUC in 2002. He is currently Senior Director of Computer Vision Technologies, Medical Imaging Technologies at Siemens Healthcare. In Siemens, he leads a R&D team working on computer vision technologies for Healthcare, including image-guided interventions, microscopy image analysis, and AI-driven intelligent machines for Healthcare. He has more than 30 patents and published 45 papers in leading conferences and journals in Computer Vision, Machine Learning, and Medical Imaging, including best paper award in VARVAI (ECCV workshop) 2016, and finalist of the best paper award in Medical Robotics & CAI Systems in MICCAI 2011.
 															</p>
 															<hr />
+															<p><strong>Title:</strong> Deep learning applied to challenges in detecting melanoma cells in lymph node biopsies
+</p>		
+<p><strong>Time:</strong> 10:30-11:00am</p>													<p><strong>Speaker:</strong>  Charles Law (Kitware)</p>
+<p><center>
+																	<img src="../img/charles_law.jpg" alt="" />
+																</center></p>
+
+
+															</p>
+
+<p><strong>Abstract:</strong> Convolutional neural networks are a promising approach for applying computer analysis to whole-slide pathology images, but a major challenge is managing the thousands of high-resolution images needed for training. We have developed an open-source web application which integrates with popular deep-learning packages and has features for annotating training data and visualizing detector results. Our application is a Girder server plugin with a python client running Theano. We applied our system to the challenge of detecting melanoma cells in lymph nodes and segmenting structures in renal tissue. Our neural network has 8 convolutional and 2 pooling layers, and has effective input receptive fields of 80x80 pixels. We trained the network with an archive of over 10000 teaching images.  A bootstrap approach to annotation simplified the generation of our ground-truth data.  New slides were initially processed with the neural network, and results were proofread by experts using a girder plugin to verify detection accuracy. The network was retrained with this additional data to further improve its performance. Generating ground truth becomes easier as the accuracy of the detector improves. Our initial results demonstrate that the deep-learning resources we have developed as plugins to Girder will simplify the process of training networks and open this approach to a wider research community. </a>
+
+															</p>
+															<p><strong>Bio:</strong> Dr. Charles Law is a Co-Founder and distinguished engineer at Kitware Inc. and has a Ph.D. from Brown and a B.S. from Carnegie Mellon University. He has been researching neural networks since the mid 80’s, and has recently applied this expertise to object detection in satellite and clinical pathology images. For the last four years has has co-lead a project with Dr. Faulkner Jones at BIDMC to create SlideAtlas, a web site hosting an archive of whole-slide images used for teaching and analysis.
+
+Ph.D. in Neural Science, Brown University, 1995
+
+B.S. in Electrical Engineering and Mathematics, Carnegie Mellon University, 1989
+															</p>
+															<hr />
+															<p><strong>Title:</strong> Pursuit of connectomics: Looking for a needle in a haystack
+</p>
+<p><strong>Time:</strong> 2:15-2:30pm</p>															<p><strong>Speaker:</strong>   Erhan Bas, Janelia Research Campus of HHMI</p>
+
+															<p><center>
+																	<img src="../img/Erhan_Bas.jpg" alt="" />
+																			</center></p>
+
+
+															<p><strong>Abstract:</strong> A major challenge in neuroscience is to relate the structure of neurons to their function. More than a century ago, Santiago Ramón y Cajal found that neurons are polarized cells with dendrites and axons, the input and output ends of neurons respectively. We now know that a neuron's structure is intimately related to its function. In this talk, I will discuss our recent advances to develop an efficient pipeline to map the complete axonal projections of individual neurons across the entire mouse brain. This is a challenging task because on the one hand axons are tiny, with diameters of less than 100 nanometers; tracing axons thus requires resolution and sensitivity at the cutting edge of what is possible with optical microscopy. On the other hand, axonal arbors are huge; individual axons of projection neurons can traverse tens of centimeters across the mouse brain before reaching their targets that makes generating morphology from large scale data manually a time consuming process. To tackle this challenge, we have developed various automated computational tools for detection, stitching, segmentation and visualization of neuronal process for massive volumes of data and generated more than two hundred whole neuronal reconstructions that will provide new insights into neuroscience.</a>
+
+															</p>
+															<p><strong>Bio:</strong> Erhan Bas received his PhD in Electrical and Computer Engineering from Northeastern University, Boston in 2011. He joined the Mouselight team at Janelia Research Campus (JRC) of HHMI as a computer scientist in 2015. At JRC, he is interested in large scale image analysis techniques for neuronal morphology analysis. Before joining to JRC, he was with the computer vision lab at GE Global Research in Niskayuna, NY, where he led a team of material and computer scientists working on industrial inspection technologies and he was an adjunct professor at Rensselaer Polytechnic University (RPI), Troy, NY where he taught Biological Image Analysis course. His general research interests include machine vision and statistical pattern recognition with various applications in biomedical and industrial image processing. He is one of the five Diadem challenge finalists and he serves as a member of IEEE Bio Imaging and Signal Processing Technical Committee, where he has been serving as an organizing committee member and area chair of ICIP 2015 and ISBI 2015/2018.
+															</p>
+
+<hr />
+
+															<p><strong>Title:</strong> Development of Non-Invasive Release Criteria for Clinical Retinal Cell Therapies
+</p>
+<p><strong>Time:</strong> 2:30-3:00pm</p>															<p><strong>Speaker:</strong>   Nathan Hotaling, NEI NIH</p>
+
+															<p><center>
+																	<img src="../img/nathan.jpg" alt="" />
+																			</center></p>
+
+
+															<p><strong>Abstract:</strong> One major challenge in developing a cell therapy product is development of release criteria that can define product identity, batch-to-batch variability, is consistent with product potency, and is easy to perform in a clinical setting. Here we use the Web Image Processing Pipeline and convolutional neural networks, to perform morphometric analysis of retinal pigment epithelial (RPE) cells. We tested the ability of this platform to analyze good-laboratory-practice-grade (GLP-grade) induced pluripotent stem cell derived RPE cells from patients who had age-related macular degeneration (AMD iPSC-RPE). We compare classic physiological and molecular biology assays to the morphometric analysis to determine the ability of the image based technique to detect underperforming cells as compared to traditional assays. To do this GLP-grade human AMD iPSC-RPE were cultured on nanofiber scaffolds. Cell morphometric quantification on over 100,000 cells/replicate x 2-5 replicates/RPE line x 8 RPE lines were analyzed. RPE differentiated from eight AMD iPSC clones were found to have healthy gene expression profiles, phagocytic ability, barrier function and protein secretion. Additionally, all lines were found to have similar mean and standard deviations of morphometric values. When using various unsupervised clustering and dimension reduction analysis between both traditional assays and morphometric analysis identical clustering of cells was found.  We therefore conclude that the morphometric assessment of AMD iPSC-RPE cells using the open access Web Image Processing Pipeline tool provides similar results to those of traditional assays at a fraction of the cost in both time and money.  This pipeline defined morphological features of GLP-grade patient RPE cells and provides potential release criteria to define identity, potency, and batch-to-batch variability of clinical-grade iPSC-RPE. </a>
+
+															</p>
+															<p><strong>Bio:</strong> Nathan Hotaling received his PhD in Biomedical Engineering in 2013 from the Georgia Institute of Technology. He is currently working at the National Institute of Health with Dr. Kapil Bharti and the National Eye Institute investigating imaging methods for non-invasive assessment of tissue engineered ocular constructs.  He is interested in using image analysis and visual information to assess tissue construct architecture, potency, consistency, and viability.  As a first step he is developing release criteria for clinical grade tissue engineered retinal cell therapies, assessing 3D cell shape and differentiation and cell-scaffold interactions with biomaterials.  
+															</p>
+
+<hr />
 
 															<p><strong>Title:</strong> Enabling Stem Cell Characterization from Large Microscopy Images</p>
-															<p><strong>Speaker:</strong> Peter Bajcsy</p>
+<p><strong>Time:</strong> 3:00-3:30pm</p>																			<p><strong>Speaker:</strong> Peter Bajcsy (NIST)</p>
 
 	
 
@@ -160,16 +218,44 @@
 															</p>
 															<p><strong>Bio:</strong> Peter Bajcsy received his Ph.D. in Electrical and Computer Engineering in 1997 from the University of Illinois at Urbana-Champaign (UIUC) and a M.S. in Electrical and Computer Engineering in 1994 from the University of Pennsylvania (UPENN).  He worked for machine vision, government contracting, and research and educational institutions before joining the National Institute of Standards and Technology (NIST) in 2011. At NIST, he has been leading a project focusing on the application of computational science in biological metrology, and specifically stem cell characterization at very large scales. Peter’s area of research is large-scale image-based analyses and syntheses using mathematical, statistical and computational models while leveraging computer science foundations for image processing, machine learning, computer vision, and pattern recognition. He has co-authored more than more than 34 journal papers and 9 books or book chapters, and close to 100 conference papers.
 															</p>
-															<hr />
 
+<hr />
+															<p><strong>Title:</strong> Human Computation Approaches to Microscopy Image Analysis </p>
+<p><strong>Time:</strong> 4:45-5:15pm</p>																	<p><strong>Speaker:</strong>  Margrit Betke, Boston University</p>
 
+	
+
+												
 															<p><center>
-																	<img src="../img/nathan.jpg" alt="" />
-																			</center></p>
+																	<img src="../img/margrit_betke.jpg" alt="" />
+																</center></p>
 
-															<p>Dr. <strong>Nathan Hotaling</strong> </p>
-															<p>Dr. Nathan Hotaling received his Ph.D. from Biomedical Engineering, Georgia Institute of Technology, in 2013. He is currently working at NIH with Dr. Kapil Bharti and the National Eye Institute as an investigator of imaging methods to curing macular degeneration. He is interested in the fundamental role that biomaterials and their architecture play in influencing cell differentiation, immune response, and the long term clinical benefits as a result of implementing these materials and architectures. In order to gain an understanding of these interactions he is researching electrospun nanofiber PLGA scaffolds and their ability to support retinal pigment epithelium growth and differentiation from induced pluripotent stem cells. To do this he is systematically changing the physical properties of the PLGA scaffolds and monitoring changes in the retinal pigment epithelium. Overall, Nathan's research interests include 3D cell shape and differentiation, Cell-scaffold interactions biomaterials and tissue engineering, Stem cell/scaffold interactions, and Immunology & glycobiology. 
+															<p><strong>Abstract:</strong> Human Computation is an emerging branch of computer science that concerns the design and analysis of computing systems in which humans participate as computing elements.  When human computation is applied to biomedical image analysis, automated tools should be used as much as possible to analyze the huge number of data that modern imaging technologies provide. However, human involvement is needed when the algorithm performance is unsatisfactory or when training data must be collected to train and test supervised machine learning systems.   In this talk, I will describe how crowdsourcing and gamification can be leveraged for microscopy image analysis. I will discuss hybrid systems that involve experts or crowd workers as computing elements to solve interactive segmentation and tracking tasks.   Due to concern about human error in crowdsourcing, it is standard practice to collect labels for the same image from multiple workers and combine their results.  I will describe a budget-efficient algorithm that determines how to allocate crowd workers so that fewer workers are asked to analyze easy-to-label images and more workers to analyze difficult-to-label images. </a>
+
 															</p>
+															<p><strong>Bio:</strong> Margrit Betke is a  Professor of Computer Science at Boston University, where she conducts research in computer vision, developing methods for detection, segmentation, registration, and tracking of objects  in microscopic and macroscopic image data.  She has published over 140 original research papers. She earned her Ph.D. degree in Computer Science and Electrical Engineering at the Massachusetts Institute of Technology in 1995. Prof. Betke co-invented the "Camera Mouse," an assistive technology used worldwide by children and adults with severe motion impairments.  She co-developed the first patented algorithms for detecting and measuring pulmonary nodule growth in computed tomography.  She is an Associate Editor of the journals IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) and Computer Vision and Image Understanding (CVIU). Recently she led a $2.8 million NSF research project to develop intelligent tracking systems that reason about group behavior of people, bats, and living cells.
+															</p>
+
+
+															<hr />
+															<p><strong>Title:</strong> Microscopy Image Analysis: Optics, Algorithms and Community</p>
+<p><strong>Time:</strong> 5:15-5:45pm</p>																			<p><strong>Speaker:</strong> Zhaozheng Yin, Missouri S&T</p>
+
+												
+															<p><center>
+																	<img src="../img/zhaozheng_yin.jpg" alt="" />
+																</center></p>
+
+															<p><strong>Abstract:</strong> The data explosion by recording microscopy images during high throughput biological experiments makes the labor-intensive manual analysis prohibitive. Biologists need rigorous, quantitative and efficient approaches and tools to decipher complex biological processes. Since microscopy images differ from general natural scene images due to their specific image formation processes and the artifacts inherent in microscopy images cause difficulties or failures for many image processing methods, first, I will introduce the theoretical foundation of microscopy imaging optics. Then, the optics-related knowledge will be transferred to guide the development of microscopy image analysis algorithms and enhancement of microscope functionality. Finally, the algorithms will be integrated into practical tools capable of tracking and analyzing the behavior of specimens, therefore benefiting the community for biological discovery. 
+															</p>
+															<p><strong>Bio:</strong> Zhaozheng Yin received his PhD in Computer Science and Engineering from Penn State in 2009. After two-year postdoc training at Carnegie Mellon University, he joined Missouri S&T as an assistant professor in 2011. Currently, he is also a Daniel St. Clair Faculty Fellow in the Computer Science Department and a Dean’s Scholar in the College of Engineering and Computing. His group has been working in the field of Biomedical Image Analysis, Computer Vision and Machine Learning. He is a recipient of CVPR Best Doctoral Spotlight Award (2009), MICCAI Young Scientist Award (2012, finalist in 2015 and 2010), NSF CAREER Award (2014). He has been serving as an Area Chair of MICCAI2015, WACV2016 and CVPR2017.
+															</p>
+															
+															
+															
+
+
+															
 															<hr />
 
 
